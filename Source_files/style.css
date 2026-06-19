@@ -3,7 +3,7 @@
    ============================================================ */
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap');
 
-:root {
+:root { 
   --turtle-green:#2ECC71; --turtle-teal:#4DD0E1; --turtle-gold:#FFD700;
   --neon-purple:#BF5FFF; --neon-cyan:#00F5FF; --neon-pink:#FF0099;
   --neon-green:#39FF14; --deep-bg:#07070F; --surface-1:rgba(255,255,255,0.04);
