@@ -4,9 +4,9 @@
 
 EcoChronicles is a web-based gamified learning platform developed to promote environmental awareness among school and college students through an engaging and interactive educational experience. The project combines environmental education with gamification techniques to transform traditional learning into an enjoyable and motivating process.
 
-The platform introduces students to important environmental topics such as climate change, waste management, recycling, biodiversity conservation, renewable energy, water conservation, and sustainable living through interactive learning modules, quizzes, challenges, and achievement-based activities. By incorporating game elements such as experience points, badges, rewards, levels, and leaderboards, the system encourages continuous participation and improves knowledge retention.
+The platform introduces students to important environmental topics such as climate change, waste management, recycling, biodiversity conservation, renewable energy, water conservation, and sustainable living through interactive learning modules, quizzes, challenges, and achievement-based activities. By incorporating game elements such as experience points (XP), badges, rewards, levels, and leaderboards, the system encourages continuous participation and improves knowledge retention.
 
-The primary objective of EcoChronicles is to educate students while inspiring them to adopt environmentally responsible behaviors in their daily lives. The project is designed to create awareness, develop practical environmental knowledge, and encourage healthy competition among learners through a reward-driven learning environment.
+The primary objective of EcoChronicles is to educate students while inspiring them to adopt environmentally responsible behaviors in their daily lives. The project creates awareness, develops practical environmental knowledge, and encourages healthy competition through a reward-driven learning environment.
 
 ---
 
@@ -17,11 +17,11 @@ The project aims to:
 - Promote environmental awareness among school and college students.
 - Encourage sustainable and eco-friendly practices.
 - Increase student engagement through gamification techniques.
-- Improve knowledge retention using quizzes and practical challenges.
-- Track learning progress through achievements and performance reports.
+- Improve knowledge retention using quizzes and environmental challenges.
+- Track student learning progress through achievements and reports.
 - Provide an interactive and user-friendly educational platform.
-- Motivate students to participate in real-world environmental activities.
-- Support institutions in monitoring student performance and environmental learning outcomes.
+- Encourage participation in real-world environmental activities.
+- Support teachers and institutions in monitoring student performance.
 
 ---
 
@@ -29,47 +29,69 @@ The project aims to:
 
 ## User Management
 
-The platform provides a secure authentication system that allows students, teachers, and administrators to register, log in, and manage their profiles. Role-based access control ensures that each user can access features relevant to their responsibilities.
+- Student Registration
+- Secure Login
+- Role-Based Authentication
+- Profile Management
 
 ## Learning Modules
 
-Environmental topics are organized into structured learning modules covering various sustainability concepts. Students can access educational content designed specifically for their learning level.
+- Interactive Environmental Lessons
+- Topic-wise Learning Content
+- Multimedia Learning Resources
 
 ## Quiz System
 
-Interactive quizzes are provided after each learning module to evaluate student understanding. Students receive immediate feedback, and their scores contribute to their overall progress.
+- Multiple Choice Quizzes
+- Instant Score Evaluation
+- Learning Assessment
 
 ## Environmental Challenges
 
-The platform includes activity-based environmental challenges that encourage students to participate in practical sustainability initiatives such as tree plantation, recycling campaigns, water conservation activities, and waste segregation.
+- Daily Eco Missions
+- Weekly Challenges
+- Real-world Sustainability Activities
 
-## Gamification
-
-To improve student motivation and engagement, the system includes:
+## Gamification Features
 
 - Experience Points (XP)
 - Levels
 - Achievement Badges
-- Reward Points
-- Eco Currency
+- Eco Rewards
+- Eco Coins
 - Leaderboards
-- Achievement Tracking
+- Progress Tracking
 
-These features encourage students to actively participate in learning while creating a sense of accomplishment.
+## Dashboards
 
-## Progress Tracking
+### Student Dashboard
 
-Students can monitor their completed lessons, quiz scores, earned badges, challenge participation, and overall learning progress through a personalized dashboard.
+- View learning modules
+- Attempt quizzes
+- Complete environmental challenges
+- Track XP, levels, and badges
+- View leaderboard rankings
+- Monitor learning progress
 
-## Leaderboard
+### Teacher Dashboard
 
-A leaderboard displays the rankings of students based on their accumulated experience points and completed activities, promoting healthy competition among learners.
+- Manage learning content
+- Create quizzes
+- Create environmental challenges
+- Monitor student performance
+- Review challenge submissions
+
+### Administrator Dashboard
+
+- Manage users
+- Manage courses
+- Manage rewards and badges
+- View system reports
+- Monitor platform activities
 
 ---
 
 # System Modules
-
-The project is divided into several functional modules:
 
 - Authentication Module
 - Student Dashboard
@@ -77,41 +99,39 @@ The project is divided into several functional modules:
 - Administrator Dashboard
 - Learning Module
 - Quiz Module
-- Environmental Challenge Module
-- Reward and Badge Module
+- Challenge Module
+- Rewards Module
+- Badge Module
 - Leaderboard Module
 - Progress Tracking Module
 - Reporting Module
-
-Each module is designed to provide a seamless user experience while maintaining modularity for future enhancements.
 
 ---
 
 # System Design
 
-The project follows a structured Software Development Life Cycle (SDLC) approach, beginning with project planning and requirement analysis before moving into system design and implementation.
+The project follows the Software Development Life Cycle (SDLC), beginning with planning and requirement analysis before progressing to system design and implementation.
 
-The software design process includes:
+The completed design activities include:
 
 - Requirement Gathering
 - Objective Definition
-- User Analysis
-- Module Identification
-- Use Case Analysis
-- Database Requirement Analysis
-- Entity Relationship Diagram Design
+- User and Module Identification
+- Use Case Diagram
+- Class Diagram
+- Activity Diagram
+- Sequence Diagram
+- Entity Relationship Diagram
 - Database Schema Design
-- User Interface Wireframing
+- UI Wireframing
 - Navigation Design
 - Frontend Architecture Planning
-
-The system design focuses on scalability, maintainability, and user-friendly interaction.
 
 ---
 
 # UML Diagrams
 
-The following UML diagrams have been prepared to model the system architecture and behavior:
+The following UML diagrams have been designed:
 
 - Use Case Diagram
 - Class Diagram
@@ -120,15 +140,13 @@ The following UML diagrams have been prepared to model the system architecture a
 - Component Diagram
 - Deployment Diagram
 
-These diagrams provide a complete understanding of the system structure and interactions between users and system components.
-
 ---
 
 # Database Design
 
-The database is designed using normalization principles to maintain data integrity and reduce redundancy. The database supports efficient storage and retrieval of user information, learning content, quizzes, rewards, and progress tracking.
+The MySQL database has been designed using normalization principles.
 
-The major database entities include:
+Major entities include:
 
 - Users
 - Student Profile
@@ -142,7 +160,7 @@ The major database entities include:
 - Leaderboard
 - Progress
 
-Relationships between these entities are represented using an Entity Relationship Diagram (ERD), ensuring proper mapping through primary and foreign keys.
+The Entity Relationship Diagram (ERD) defines relationships using primary and foreign keys to maintain data consistency.
 
 ---
 
@@ -160,7 +178,7 @@ Relationships between these entities are represented using an Entity Relationshi
 ## Backend (Planned)
 
 - Spring Boot / Flask
-- RESTful APIs
+- REST APIs
 
 ## Database
 
@@ -177,46 +195,94 @@ Relationships between these entities are represented using an Entity Relationshi
 
 ---
 
-# Current Development Status
+# Current Development Status (Updated: June 20)
 
-The project has successfully completed the planning, analysis, system design, database design, and user interface design phases. The frontend development environment has been configured, and the initial user interface components have been developed.
+The project has successfully completed the planning, analysis, design, and initial frontend development phases.
 
-The current implementation includes:
+### Completed Work
 
-- Project planning and documentation
-- Requirement specification
-- Software architecture design
-- UML diagrams
-- Entity Relationship Diagram
-- Database schema
-- UI wireframes
-- Login page interface
-- Registration page interface
-- Dashboard layout
-- Navigation system
-- CRUD form planning
-- React project initialization
-- Frontend folder structure
+#### Project Planning
 
-The project is currently progressing toward backend integration, database connectivity, and implementation of core gamification functionalities.
+- Project title finalized
+- Problem statement defined
+- Objectives identified
+- Requirement gathering completed
+- Functional and non-functional requirements documented
+
+#### System Design
+
+- User roles identified
+- System modules designed
+- UML diagrams prepared
+- Database requirements analyzed
+- ER Diagram created
+- Database schema designed
+
+#### UI/UX Design
+
+- Wireframes prepared
+- Login page designed
+- Registration page designed
+- Dashboard layouts completed
+- Navigation flow finalized
+- Form designs completed
+- UI review and refinement completed
+
+#### Frontend Development
+
+- ReactJS development environment configured
+- Project folder structure created
+- React Router configured
+- Bootstrap integrated
+- Axios installed
+- Login page developed
+- Registration page developed
+- Student dashboard interface developed
+- Navigation bar implemented
+- Sidebar navigation created
+- Responsive layouts developed
+- CRUD form structure implemented
+- Search and table components designed
+- Reusable React components created
+
+#### Documentation
+
+- Software Requirement Specification completed
+- UML documentation completed
+- Database documentation completed
+- GitHub repository organized
+- README documentation updated
+- Project structure documented
+
+### Current Progress
+
+The project currently includes a functional frontend interface with authentication screens, dashboard layouts, navigation components, reusable UI components, and CRUD form structures.
+
+The project documentation, UML diagrams, ER Diagram, database schema, and frontend architecture have been successfully completed.
+
+The application is now ready for backend development and database integration.
 
 ---
 
 # Future Enhancements
 
-The platform will be extended with additional features to improve functionality and user engagement, including:
+The following features are planned for future development:
 
-- Artificial Intelligence-based personalized learning
+- Backend development using Spring Boot or Flask
+- MySQL database integration
+- Secure authentication with JWT
+- Environmental quiz engine
+- Challenge verification system
+- Badge and reward management
+- Leaderboard ranking algorithm
+- AI-based personalized learning
 - Carbon Footprint Calculator
-- QR Code-based environmental missions
-- Mobile application support
-- Real-time notifications
-- Community discussion forum
-- Interactive environmental simulations
-- Multi-language support
+- Mobile application
 - Cloud deployment
-- Analytics dashboard
+- Analytics Dashboard
 - Institution performance reports
+
+---
 
 # Author
 
@@ -226,10 +292,10 @@ Department of Computer Science and Engineering
 
 V.S.B Engineering College
 
-Project Domain: Gamification | Environmental Education | Web Development
+**Project Domain:** Gamification | Environmental Education | Web Development
 
 ---
 
-**EcoChronicles**
+## EcoChronicles
 
-*Learn the Past. Protect the Future.*
+**Learn the Past. Protect the Future.**
