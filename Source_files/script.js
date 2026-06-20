@@ -3,14 +3,14 @@ import { saveScore } from './firebase.js';
 // ---- STATE ----
 let studentName = '';
 let studentClass = '';
-let currentLang = 'en';
+let currentLang = 'en';  
 let totalXP = 0;
 let lives = 3;
 let currentDifficulty = 'beginner';
 let currentLevelNum = 1;
 let currentQuestion = 0;
 let score = 0;
-let questions = [];
+let questions = []; 
 let answered = false;
 let levelsDone = 0;
 const completed = { beginner: {}, intermediate: {}, advanced: {} };
